@@ -1,4 +1,4 @@
-# Airflow · ETL Pipeline Upgrade according to new Business Needs
+# Airflow · ETL Pipeline Upgrade according to new Requirements
 
 ### Project Overview
 
@@ -11,14 +11,14 @@ Modified DAG to meet new requirements:
 
 ### Key Skills
 
-Asynchronous API requests using Airflow XCom, writing functions and procedures in Python, data processing with Pandas, Psycopg2, Requests, and JSON, writing SQL scripts for data migration and mart calculations, connection credential masking using Airflow Connections, BaseHook, and PostgresHook, developing end-to-end ETL pipelines with PythonOperator, PostgresOperator, BranchPythonOperator, and DummyOperator, ensuring ETL process idempotency and backward compatibility, logging and testing DAG execution.
+Asynchronous API requests using Airflow XCom, writing functions and procedures in Python, data processing with Pandas, Psycopg2, Requests, and JSON, writing SQL scripts for data migration and mart calculations, connection credential masking using Airflow Connections, BaseHook, and PostgresHook, developing end-to-end ETL pipeline with PythonOperator, PostgresOperator, BranchPythonOperator, and DummyOperator, ensuring ETL process idempotency and backward compatibility, logging and testing DAG execution.
 
 ### Описание проекта
 
-- Модифицирован DAG для учета новых требований:
+Модифицирован существующий DAG по расчету витрины продаж для учета новых бизнес-требований:
 - Добавлено поле «статус платежа» в слой Staging и витрину "mart.f_sales" для отражения актуальной бизнес-логики без нарушения существующих зависимостей (поддержка backward compatibility)
-- Реализована витрина "mart.f_customer_retention" по недельному удержанию клиентов
-- Настроена инкрементальная загрузка retention-отчета (каждый Пн за полную прошедшую неделю) согласно предоставленной схеме
+- Реализована витрина "mart.f_customer_retention" по недельному удержанию клиентов согласно предоставленной схеме от бизнес-пользователей
+- Настроена инкрементальная загрузка retention-отчета (каждый Пн за полную прошедшую неделю)
 - Обеспечена идемпотентность: перед загрузкой выполняется очистка данных за соответствующий период
 - DAG протестирован и отлажен
 
