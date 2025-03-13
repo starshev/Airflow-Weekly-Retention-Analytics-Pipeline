@@ -1,4 +1,4 @@
-# Airflow · Upgrading ETL Pipeline according to Business Needs
+# Airflow · ETL Pipeline Upgrade according to new Business Needs
 
 ### Project Overview
 
@@ -11,7 +11,7 @@ Modified DAG to meet new requirements:
 
 ### Key Skills
 
-
+Asynchronous API requests using Airflow XCom, writing functions and procedures in Python, data processing with Pandas, Psycopg2, Requests, and JSON, writing SQL scripts for data migration and mart calculations, connection credential masking using Airflow Connections, BaseHook, and PostgresHook, developing end-to-end ETL pipelines with PythonOperator, PostgresOperator, BranchPythonOperator, and DummyOperator, ensuring ETL process idempotency and backward compatibility, logging and testing DAG execution.
 
 ### Описание проекта
 
@@ -24,4 +24,4 @@ Modified DAG to meet new requirements:
 
 ### Ключевые навыки
 
-Асинхронные запросы по API с использованием Airflow XCom, написание функций и процедур на Python, использование библиотек Pandas, Psycopg2, Requests, JSON для обработки данных, написание SQL-скриптов для миграции данных и расчета витрин, маскирование реквизитов соединений с помощью Airflow Connections, BaseHook и PostgresHook, разработка ETL-пайплайна для сквозной бизнес-задачи с использованием операторов PythonOperator, PostgresOperator, BranchPythonOperator, DummyOpearator, обеспечение соответствия ETL-процесса требованиям идемпотентности и backward compatibility, логирование и тестирование запуска DAG
+Асинхронные запросы по API с использованием Airflow XCom, написание функций и процедур на Python, использование библиотек Pandas, Psycopg2, Requests, JSON для обработки данных, написание SQL-скриптов для миграции данных и расчета витрин, маскирование реквизитов соединений с помощью Airflow Connections, BaseHook и PostgresHook, разработка ETL-пайплайна для сквозной бизнес-задачи с использованием операторов PythonOperator, PostgresOperator, BranchPythonOperator, DummyOpearator, обеспечение соответствия ETL-процесса требованиям идемпотентности и backward compatibility, логирование и тестирование запуска DAG.
