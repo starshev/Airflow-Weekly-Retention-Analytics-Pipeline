@@ -1,4 +1,4 @@
-# Airflow · ETL Pipeline Upgrade according to new Requirements
+# Airflow · ETL Pipeline Update according to new Requirements
 
 ### Project Overview
 
