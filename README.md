@@ -1,4 +1,4 @@
-## Weekly Retention Data Mart Pipeline using Airflow
+## Weekly Retention Analytics Pipeline using Airflow
 
 ### Task  
 Modify existing DAG for daily refill of sales data mart to meet updated requirements. Add "payment status" field in STG layer and existing data mart to reflect the latest business logic without breaking existing dependencies (backward compatibility ensured). Implement a new data mart for weekly customer retention analysis. Configure incremental data load into retention data mart (every Monday for the previous full week). Ensure idempotency by clearing data for the corresponding period before loading.
